@@ -5,7 +5,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Assembly.h"
+#import "DependencyContainer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

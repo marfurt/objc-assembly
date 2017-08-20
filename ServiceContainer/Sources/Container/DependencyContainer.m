@@ -5,7 +5,7 @@
 //
 
 #import "DependencyContainer.h"
-#import "Binding.h"
+#import "BindingElement.h"
 
 @interface DependencyContainer ()
 

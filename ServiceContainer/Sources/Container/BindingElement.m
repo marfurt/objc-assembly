@@ -4,7 +4,7 @@
 //  Copyright © 2017 Nicolas Marfurt. All rights reserved.
 //
 
-#import "Binding.h"
+#import "BindingElement.h"
 
 @implementation BindingElement
 

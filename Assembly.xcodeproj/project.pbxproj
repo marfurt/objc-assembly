@@ -16,7 +16,7 @@
 		37A14C5C1F44D50100253620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374F1EBF1F437951008AA08E /* Main.storyboard */; };
 		37A14C5D1F44D50600253620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374F1EC91F437951008AA08E /* Assets.xcassets */; };
 		37A14C5E1F44D50C00253620 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 374F1EC11F437951008AA08E /* Info.plist */; };
-		37A14C611F44DABF00253620 /* Binding.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A14C601F44DABF00253620 /* Binding.m */; };
+		37A14C611F44DABF00253620 /* BindingElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A14C601F44DABF00253620 /* BindingElement.m */; };
 		37A14C671F497F2500253620 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A14C661F497F2500253620 /* TestClass.m */; };
 		37A14C6A1F4A158400253620 /* DependencyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A14C691F4A158400253620 /* DependencyContainer.m */; };
 		37A14C6C1F4A161700253620 /* AssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A14C6B1F4A161700253620 /* AssemblyTests.m */; };
@@ -51,8 +51,8 @@
 		374F1ECA1F4379F1008AA08E /* Assembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assembly.h; sourceTree = "<group>"; };
 		374F1ECB1F4379F1008AA08E /* Assembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assembly.m; sourceTree = "<group>"; };
 		374F1ED01F4386CA008AA08E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37A14C5F1F44DABF00253620 /* Binding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Binding.h; sourceTree = "<group>"; };
-		37A14C601F44DABF00253620 /* Binding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Binding.m; sourceTree = "<group>"; };
+		37A14C5F1F44DABF00253620 /* BindingElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BindingElement.h; sourceTree = "<group>"; };
+		37A14C601F44DABF00253620 /* BindingElement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BindingElement.m; sourceTree = "<group>"; };
 		37A14C651F497F2500253620 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
 		37A14C661F497F2500253620 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		37A14C681F4A158400253620 /* DependencyContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DependencyContainer.h; sourceTree = "<group>"; };
@@ -170,8 +170,8 @@
 			children = (
 				37A14C681F4A158400253620 /* DependencyContainer.h */,
 				37A14C691F4A158400253620 /* DependencyContainer.m */,
-				37A14C5F1F44DABF00253620 /* Binding.h */,
-				37A14C601F44DABF00253620 /* Binding.m */,
+				37A14C5F1F44DABF00253620 /* BindingElement.h */,
+				37A14C601F44DABF00253620 /* BindingElement.m */,
 				374F1ECA1F4379F1008AA08E /* Assembly.h */,
 				374F1ECB1F4379F1008AA08E /* Assembly.m */,
 				37A14C751F4A1EBC00253620 /* ServiceProvider.h */,
@@ -309,7 +309,7 @@
 				37A14C5A1F44D47B00253620 /* AppDelegate.m in Sources */,
 				37A14C591F44D40F00253620 /* main.m in Sources */,
 				374F1ECF1F43847D008AA08E /* ViewController.m in Sources */,
-				37A14C611F44DABF00253620 /* Binding.m in Sources */,
+				37A14C611F44DABF00253620 /* BindingElement.m in Sources */,
 				374F1ECC1F4379F1008AA08E /* Assembly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
