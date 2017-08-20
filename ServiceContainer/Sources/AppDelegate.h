@@ -1,8 +1,6 @@
 //
-//  AppDelegate.h
-//  ServiceContainer
+//  AppDelegate
 //
-//  Created by Nicolas Marfurt on 15.08.17.
 //  Copyright © 2017 Nicolas Marfurt. All rights reserved.
 //
 
@@ -12,6 +10,4 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-
 @end
-
